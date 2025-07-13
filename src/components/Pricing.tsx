@@ -100,7 +100,6 @@ const Pricing = () => {
               className={`opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 relative hover:scale-110 hover:z-10 transform-gpu ${
                 plan.popular ? 'scale-105' : ''
               }`}
-              style={{ transitionDelay: `${index * 200}ms` }}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
