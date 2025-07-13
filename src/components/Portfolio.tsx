@@ -85,16 +85,11 @@ const Portfolio = () => {
                         <iframe
                           src={`${video.embedUrl}?autoplay=0&muted=1`}
                           title={video.title}
-                          className="w-full h-full rounded-t-3xl"
+                          className="w-full h-full rounded-3xl"
                           frameBorder="0"
                           allow="autoplay; fullscreen; picture-in-picture"
                           allowFullScreen
                         />
-                      </div>
-                      <div className="p-8">
-                        <h3 className="text-2xl font-bold text-foreground text-center transition-all duration-300 ease-out">
-                          {video.title}
-                        </h3>
                       </div>
                     </div>
                   </div>
