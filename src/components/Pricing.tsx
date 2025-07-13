@@ -97,7 +97,7 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div
               key={plan.name}
-              className={`opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 [.animate-fade-in_&]:transition-all [.animate-fade-in_&]:duration-1000 relative hover:scale-110 hover:z-10 transform-gpu transition-transform duration-300 ${
+              className={`opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 relative hover:scale-110 hover:z-10 transform-gpu ${
                 plan.popular ? 'scale-105' : ''
               }`}
               style={{ transitionDelay: `${index * 200}ms` }}
@@ -110,7 +110,7 @@ const Pricing = () => {
                 </div>
               )}
               
-              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-xl hover:shadow-purple-600/20 ${
+              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-0 hover:shadow-xl hover:shadow-purple-600/20 ${
                 plan.popular ? 'border-purple-600/50 shadow-lg shadow-purple-600/10' : ''
               }`}>
                 <div className="mb-8">
@@ -143,7 +143,7 @@ const Pricing = () => {
                 
                 <Button 
                   onClick={handleGetStarted}
-                  className={`w-full transition-all duration-300 ${
+                  className={`w-full transition-all duration-0 ${
                     plan.popular 
                       ? 'btn-gradient-bevel-glow text-white' 
                       : 'btn-bevel-glow bg-secondary text-secondary-foreground hover:bg-secondary/80'
