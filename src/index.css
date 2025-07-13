@@ -1,0 +1,289 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 250 47% 12%;
+    --foreground: 0 0% 100%;
+
+    --card: 250 47% 15%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 250 47% 15%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 250 47% 12%;
+
+    --secondary: 250 30% 20%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 250 30% 20%;
+    --muted-foreground: 220 15% 70%;
+
+    --accent: 250 30% 20%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 30% 25%;
+    --input: 250 30% 25%;
+    --ring: 264 100% 75%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 250 47% 10%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 264 100% 75%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 250 30% 18%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 250 30% 18%;
+    --sidebar-ring: 264 100% 75%;
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 250 47% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 250 47% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 250 47% 12%;
+
+    --primary: 250 47% 12%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 250 47% 12%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 8% 46%;
+
+    --accent: 220 14% 96%;
+    --accent-foreground: 250 47% 12%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 250 47% 12%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5% 26%;
+    --sidebar-primary: 240 6% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 5% 96%;
+    --sidebar-accent-foreground: 240 6% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 264 100% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    background: #130a44;
+    min-height: 100vh;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  }
+  
+  /* Enhanced smooth scrolling */
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Button effects */
+@layer components {
+  .btn-bevel-glow {
+    position: relative;
+    background: linear-gradient(145deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 50%, rgba(0,0,0,0.1) 100%);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 
+      0 8px 32px rgba(0,0,0,0.3),
+      inset 0 1px 0 rgba(255,255,255,0.2),
+      inset 0 -1px 0 rgba(0,0,0,0.1),
+      0 0 20px rgba(255,255,255,0.1);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .btn-bevel-glow:hover {
+    box-shadow: 
+      0 12px 40px rgba(0,0,0,0.4),
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      inset 0 -1px 0 rgba(0,0,0,0.15),
+      0 0 30px rgba(255,255,255,0.2);
+    transform: translateY(-1px);
+  }
+  
+  .btn-bevel-glow:active {
+    transform: translateY(0);
+    box-shadow: 
+      0 4px 16px rgba(0,0,0,0.3),
+      inset 0 1px 0 rgba(255,255,255,0.1),
+      inset 0 -1px 0 rgba(0,0,0,0.2),
+      0 0 15px rgba(255,255,255,0.1);
+  }
+
+  .btn-white-bevel-glow {
+    position: relative;
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 50%, rgba(220,220,220,1) 100%);
+    border: 1px solid rgba(200,200,200,0.5);
+    box-shadow: 
+      0 8px 32px rgba(0,0,0,0.2),
+      inset 0 1px 0 rgba(255,255,255,0.8),
+      inset 0 -1px 0 rgba(0,0,0,0.1),
+      0 0 20px rgba(255,255,255,0.3);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .btn-white-bevel-glow:hover {
+    box-shadow: 
+      0 12px 40px rgba(0,0,0,0.3),
+      inset 0 1px 0 rgba(255,255,255,0.9),
+      inset 0 -1px 0 rgba(0,0,0,0.15),
+      0 0 30px rgba(255,255,255,0.5);
+    transform: translateY(-1px);
+  }
+  
+  .btn-white-bevel-glow:active {
+    transform: translateY(0);
+    box-shadow: 
+      0 4px 16px rgba(0,0,0,0.2),
+      inset 0 1px 0 rgba(255,255,255,0.6),
+      inset 0 -1px 0 rgba(0,0,0,0.2),
+      0 0 15px rgba(255,255,255,0.2);
+  }
+
+  .btn-gradient-bevel-glow {
+    position: relative;
+    background: linear-gradient(145deg, 
+      rgba(59, 130, 246, 0.9) 0%, 
+      rgba(147, 51, 234, 0.9) 50%, 
+      rgba(59, 130, 246, 0.9) 100%);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 
+      0 8px 32px rgba(59, 130, 246, 0.3),
+      inset 0 1px 0 rgba(255,255,255,0.2),
+      inset 0 -1px 0 rgba(0,0,0,0.1),
+      0 0 20px rgba(147, 51, 234, 0.2);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .btn-gradient-bevel-glow:hover {
+    box-shadow: 
+      0 12px 40px rgba(59, 130, 246, 0.4),
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      inset 0 -1px 0 rgba(0,0,0,0.15),
+      0 0 30px rgba(147, 51, 234, 0.3);
+    transform: translateY(-1px);
+  }
+  
+  .btn-gradient-bevel-glow:active {
+    transform: translateY(0);
+    box-shadow: 
+      0 4px 16px rgba(59, 130, 246, 0.3),
+      inset 0 1px 0 rgba(255,255,255,0.1),
+      inset 0 -1px 0 rgba(0,0,0,0.2),
+      0 0 15px rgba(147, 51, 234, 0.2);
+  }
+}
+
+/* Custom animations for Apple-like feel with improved smoothness */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0px);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-gradient {
+  background-size: 400% 400%;
+  animation: gradient-shift 8s ease-in-out infinite;
+}
+
+/* Enhanced smooth scrolling improvements */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Smooth scroll for all scrollable elements */
+  * {
+    scroll-behavior: smooth;
+  }
+  
+  /* Better webkit scrolling on mobile */
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Smooth transitions for all interactive elements */
+@layer utilities {
+  .smooth-transition {
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .smooth-transform {
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+}
