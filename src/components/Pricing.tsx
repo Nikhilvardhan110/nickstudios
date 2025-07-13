@@ -110,7 +110,7 @@ const Pricing = () => {
                 </div>
               )}
               
-              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-0 hover:shadow-xl hover:shadow-purple-600/20 ${
+              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-xl hover:shadow-purple-600/20 ${
                 plan.popular ? 'border-purple-600/50 shadow-lg shadow-purple-600/10' : ''
               }`}>
                 <div className="mb-8">
