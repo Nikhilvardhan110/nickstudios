@@ -95,10 +95,27 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-    background: #130a44;
+    background: 
+      radial-gradient(ellipse at center, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%),
+      linear-gradient(135deg, #1a0b4d 0%, #130a44 25%, #0f0836 50%, #130a44 75%, #1a0b4d 100%);
+    background-attachment: fixed;
+    background-size: 100% 100%, 200% 200%;
     min-height: 100vh;
+    position: relative;
+  }
+  
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0.7) 100%);
+    pointer-events: none;
+    z-index: -1;
   }
 
   html {
