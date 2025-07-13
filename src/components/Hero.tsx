@@ -33,7 +33,7 @@ const Hero = () => {
   };
 
   return (
-    <section ref={heroRef} className="pt-20 pb-12 lg:pt-28 lg:pb-16 bg-background min-h-screen flex items-center">
+    <section ref={heroRef} className="pt-20 pb-12 lg:pt-28 lg:pb-16 min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
         <div className="text-center max-w-5xl mx-auto">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">

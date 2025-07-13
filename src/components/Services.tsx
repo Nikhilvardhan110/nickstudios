@@ -55,7 +55,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" ref={servicesRef} className="py-24 bg-background">
+    <section id="services" ref={servicesRef} className="py-24">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">
