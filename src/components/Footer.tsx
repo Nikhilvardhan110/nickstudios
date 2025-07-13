@@ -17,14 +17,6 @@ const Footer = () => {
                 <Mail size={16} />
                 <span className="text-sm">hello@nickstudios.com</span>
               </div>
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <Phone size={16} />
-                <span className="text-sm">+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <MapPin size={16} />
-                <span className="text-sm">New York, NY</span>
-              </div>
             </div>
           </div>
           
