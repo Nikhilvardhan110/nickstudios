@@ -55,7 +55,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" ref={servicesRef} className="py-24">
+    <section id="services" ref={servicesRef} className="py-24 relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">
@@ -90,6 +90,8 @@ const Services = () => {
           ))}
         </div>
       </div>
+      {/* Gradient transition overlay to smoothly blend into portfolio section */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent via-purple-500/5 to-purple-500/10 pointer-events-none"></div>
     </section>
   );
 };

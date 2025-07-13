@@ -54,7 +54,9 @@ const Portfolio = () => {
   const currentVideo = videos[currentIndex];
 
   return (
-    <section id="portfolio" ref={portfolioRef} className="py-24 bg-background">
+    <section id="portfolio" ref={portfolioRef} className="py-24 relative">
+      {/* Top gradient overlay to continue the transition from services section */}
+      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-purple-500/10 to-transparent pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 ease-out">
