@@ -53,7 +53,7 @@ const Pricing = () => {
       description: "Our most popular plan for creators serious about sales",
       features: [
         "8 edited videos per month",
-        "24 hour turnaround",
+        "48 hour turnaround",
         "Advanced graphics & animations",
         "Conversion-optimized editing",
         "Custom thumbnails",
@@ -68,7 +68,7 @@ const Pricing = () => {
       description: "Premium editing for established creators and businesses",
       features: [
         "12 edited videos per month",
-        "24 hour turnaround",
+        "48 hour turnaround",
         "Premium graphics & animations",
         "Sales funnel optimization",
         "Custom thumbnails",
