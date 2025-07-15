@@ -40,7 +40,7 @@ const Pricing = () => {
       description: "Perfect for creators getting started with professional editing",
       features: [
         "4 edited videos per month",
-        "48 hour turnaround",
+        "24 hour turnaround",
         "Basic graphics & transitions",
         "Sales-focused editing style"
       ],

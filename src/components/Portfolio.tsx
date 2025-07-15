@@ -61,7 +61,7 @@ const Portfolio = () => {
         <div className="text-center mb-16">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 ease-out">
             <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6">
-              Our <span className="font-medium">Portfolio</span>
+              <span className="font-medium">Portfolio</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Explore our recent work and see how we've helped creators and businesses transform their content.

@@ -41,7 +41,7 @@ const Services = () => {
     {
       icon: Zap,
       title: "Fast Turnaround",
-      description: "48-hour delivery guaranteed. We understand that speed = more content = more revenue for your business.",
+      description: "24-hour delivery guaranteed. We understand that speed = more content = more revenue for your business.",
       gradient: "bg-gradient-to-br from-purple-500 to-purple-700",
       textColor: "text-white"
     },

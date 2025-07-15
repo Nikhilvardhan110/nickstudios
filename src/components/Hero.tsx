@@ -87,7 +87,7 @@ const Hero = () => {
                 <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3">48hrs</div>
+                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3">24hrs</div>
                 <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Turnaround Time</div>
               </div>
               <div className="text-center">
