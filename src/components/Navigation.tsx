@@ -68,13 +68,6 @@ const Navigation = () => {
               >
                 Process
               </a>
-              <a 
-                href="#pricing" 
-                onClick={(e) => handleSmoothScroll(e, '#pricing')}
-                className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-base font-medium"
-              >
-                Pricing
-              </a>
               <button 
                 onClick={handleGetStarted}
                 className="btn-white-bevel-glow text-background px-8 py-3 rounded-full text-base font-bold"
@@ -118,13 +111,6 @@ const Navigation = () => {
               className="block text-muted-foreground hover:text-foreground transition-colors duration-200 text-lg font-medium"
             >
               Process
-            </a>
-            <a 
-              href="#pricing" 
-              onClick={(e) => handleSmoothScroll(e, '#pricing')}
-              className="block text-muted-foreground hover:text-foreground transition-colors duration-200 text-lg font-medium"
-            >
-              Pricing
             </a>
             <button 
               onClick={handleGetStarted}
