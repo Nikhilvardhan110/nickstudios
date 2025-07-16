@@ -134,6 +134,15 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        
+        {/* Get Started Button */}
+        <div className="text-center mt-16">
+          <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 delay-700 ease-out">
+            <button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-12 py-4 rounded-full text-lg font-medium transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30">
+              Get Started
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
