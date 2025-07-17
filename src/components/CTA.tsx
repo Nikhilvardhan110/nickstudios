@@ -64,7 +64,7 @@ const CTA = () => {
             <div className="grid grid-cols-2 gap-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-foreground mb-2">24hrs</div>
-                <div className="text-sm text-muted-foreground font-medium">From Brief to Delivery</div>
+                <div className="text-sm text-muted-foreground font-medium">From Call to Delivery</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-foreground mb-2">98%</div>
