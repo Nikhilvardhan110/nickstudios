@@ -37,11 +37,6 @@ const Portfolio = () => {
       embedUrl: "https://player.vimeo.com/video/1100959227"
     },
     {
-      id: "1111400640",
-      title: "Premium Video Content",
-      embedUrl: "https://player.vimeo.com/video/1111400640"
-    },
-    {
       id: "1100959279",
       title: "Product Launch Video",
       embedUrl: "https://player.vimeo.com/video/1100959279"
@@ -50,6 +45,11 @@ const Portfolio = () => {
       id: "1100959364",
       title: "Social Media Content",
       embedUrl: "https://player.vimeo.com/video/1100959364"
+    },
+    {
+      id: "1111400640",
+      title: "Premium Video Content",
+      embedUrl: "https://player.vimeo.com/video/1111400640"
     }
   ];
 
