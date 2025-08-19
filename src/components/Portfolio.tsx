@@ -40,6 +40,11 @@ const Portfolio = () => {
       id: "1100959364",
       title: "Social Media Content",
       embedUrl: "https://player.vimeo.com/video/1100959364"
+    },
+    {
+      id: "1111398030",
+      title: "Creative Project",
+      embedUrl: "https://player.vimeo.com/video/1111398030"
     }
   ];
 
