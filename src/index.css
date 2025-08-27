@@ -9,83 +9,83 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 250 47% 12%;
-    --foreground: 0 0% 100%;
+    --background: 48 87% 94%;
+    --foreground: 109 19% 43%;
 
-    --card: 250 47% 15%;
-    --card-foreground: 0 0% 100%;
+    --card: 48 80% 96%;
+    --card-foreground: 109 19% 43%;
 
-    --popover: 250 47% 15%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 48 80% 96%;
+    --popover-foreground: 109 19% 43%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 250 47% 12%;
+    --primary: 109 19% 43%;
+    --primary-foreground: 48 87% 94%;
 
-    --secondary: 250 30% 20%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 48 70% 90%;
+    --secondary-foreground: 109 19% 43%;
 
-    --muted: 250 30% 20%;
-    --muted-foreground: 220 15% 70%;
+    --muted: 48 70% 90%;
+    --muted-foreground: 109 10% 60%;
 
-    --accent: 250 30% 20%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 109 19% 43%;
+    --accent-foreground: 48 87% 94%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 48 87% 94%;
 
-    --border: 250 30% 25%;
-    --input: 250 30% 25%;
-    --ring: 264 100% 75%;
+    --border: 48 60% 85%;
+    --input: 48 60% 85%;
+    --ring: 109 19% 43%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 250 47% 10%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 264 100% 75%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 250 30% 18%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 250 30% 18%;
-    --sidebar-ring: 264 100% 75%;
+    --sidebar-background: 48 80% 96%;
+    --sidebar-foreground: 109 19% 43%;
+    --sidebar-primary: 109 19% 43%;
+    --sidebar-primary-foreground: 48 87% 94%;
+    --sidebar-accent: 48 60% 92%;
+    --sidebar-accent-foreground: 109 19% 43%;
+    --sidebar-border: 48 60% 85%;
+    --sidebar-ring: 109 19% 43%;
   }
 
   .light {
-    --background: 0 0% 100%;
-    --foreground: 250 47% 12%;
+    --background: 48 87% 94%;
+    --foreground: 109 19% 43%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 250 47% 12%;
+    --card: 48 80% 96%;
+    --card-foreground: 109 19% 43%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 250 47% 12%;
+    --popover: 48 80% 96%;
+    --popover-foreground: 109 19% 43%;
 
-    --primary: 250 47% 12%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 109 19% 43%;
+    --primary-foreground: 48 87% 94%;
 
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 250 47% 12%;
+    --secondary: 48 70% 90%;
+    --secondary-foreground: 109 19% 43%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 8% 46%;
+    --muted: 48 70% 90%;
+    --muted-foreground: 109 10% 60%;
 
-    --accent: 220 14% 96%;
-    --accent-foreground: 250 47% 12%;
+    --accent: 109 19% 43%;
+    --accent-foreground: 48 87% 94%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 48 87% 94%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 250 47% 12%;
+    --border: 48 60% 85%;
+    --input: 48 60% 85%;
+    --ring: 109 19% 43%;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5% 26%;
-    --sidebar-primary: 240 6% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 5% 96%;
-    --sidebar-accent-foreground: 240 6% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 264 100% 75%;
+    --sidebar-background: 48 80% 96%;
+    --sidebar-foreground: 109 19% 43%;
+    --sidebar-primary: 109 19% 43%;
+    --sidebar-primary-foreground: 48 87% 94%;
+    --sidebar-accent: 48 60% 92%;
+    --sidebar-accent-foreground: 109 19% 43%;
+    --sidebar-border: 48 60% 85%;
+    --sidebar-ring: 109 19% 43%;
   }
 }
 
@@ -97,26 +97,11 @@ All colors MUST be HSL.
   body {
     @apply text-foreground;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-    background: 
-      radial-gradient(ellipse at center, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%),
-      linear-gradient(135deg, #2d1b5e 0%, #251355 25%, #1f0f4a 50%, #251355 75%, #2d1b5e 100%);
-    background-attachment: fixed;
-    background-size: 100% 100%, 200% 200%;
+    background: hsl(var(--background));
     min-height: 100vh;
     position: relative;
   }
   
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0.7) 100%);
-    pointer-events: none;
-    z-index: -1;
-  }
 
   html {
     scroll-behavior: smooth;
