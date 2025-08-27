@@ -50,7 +50,7 @@ const Hero = () => {
               Transform Your Content Into
             </h1>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.9] mb-8 tracking-tight">
-              <span className="bg-gradient-to-r from-green-400 via-purple-400 to-orange-400 bg-clip-text text-transparent animate-gradient">
+              <span className="bg-gradient-to-r from-green-600 via-green-500 to-green-400 bg-clip-text text-transparent animate-gradient">
                 Sales Machines
               </span>
             </h1>
@@ -66,7 +66,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <button 
                 onClick={handleStartGrowingClick}
-                className="btn-white-bevel-glow text-black px-8 py-5 rounded-full text-lg font-semibold flex items-center gap-2 group"
+                className="btn-green-bevel-glow text-white px-8 py-5 rounded-full text-lg font-semibold flex items-center gap-2 group"
               >
                 Start Growing Today
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />

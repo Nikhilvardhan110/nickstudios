@@ -66,7 +66,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio" ref={portfolioRef} className="py-24 relative">
       {/* Top gradient overlay to continue the transition from services section */}
-      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-purple-500/10 to-transparent pointer-events-none"></div>
+      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-green-500/10 to-transparent pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 ease-out">
@@ -92,7 +92,7 @@ const Portfolio = () => {
                     key={video.id}
                     className="w-full flex-shrink-0"
                   >
-                    <div className="bg-gradient-to-br from-purple-500/10 to-purple-700/20 rounded-3xl overflow-hidden border border-purple-500/20 backdrop-blur-sm transition-all duration-500 ease-out">
+                    <div className="bg-gradient-to-br from-green-500/10 to-green-700/20 rounded-3xl overflow-hidden border border-green-500/20 backdrop-blur-sm transition-all duration-500 ease-out">
                       <div className="aspect-video">
                         <iframe
                           src={`${video.embedUrl}?autoplay=0&muted=1`}
@@ -111,14 +111,14 @@ const Portfolio = () => {
               {/* Navigation arrows with smooth hover transitions */}
               <button
                 onClick={prevSlide}
-                className="absolute top-1/2 left-4 -translate-y-1/2 w-12 h-12 bg-purple-500/20 hover:bg-purple-500/40 border border-purple-500/30 hover:border-purple-500/50 rounded-full flex items-center justify-center text-purple-300 hover:text-purple-100 backdrop-blur-md transition-all duration-300 ease-out hover:scale-110"
+                className="absolute top-1/2 left-4 -translate-y-1/2 w-12 h-12 bg-green-500/20 hover:bg-green-500/40 border border-green-500/30 hover:border-green-500/50 rounded-full flex items-center justify-center text-green-300 hover:text-green-100 backdrop-blur-md transition-all duration-300 ease-out hover:scale-110"
               >
                 <ChevronLeft size={24} />
               </button>
               
               <button
                 onClick={nextSlide}
-                className="absolute top-1/2 right-4 -translate-y-1/2 w-12 h-12 bg-purple-500/20 hover:bg-purple-500/40 border border-purple-500/30 hover:border-purple-500/50 rounded-full flex items-center justify-center text-purple-300 hover:text-purple-100 backdrop-blur-md transition-all duration-300 ease-out hover:scale-110"
+                className="absolute top-1/2 right-4 -translate-y-1/2 w-12 h-12 bg-green-500/20 hover:bg-green-500/40 border border-green-500/30 hover:border-green-500/50 rounded-full flex items-center justify-center text-green-300 hover:text-green-100 backdrop-blur-md transition-all duration-300 ease-out hover:scale-110"
               >
                 <ChevronRight size={24} />
               </button>
@@ -136,8 +136,8 @@ const Portfolio = () => {
                   onClick={() => setCurrentIndex(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-500 ease-out ${
                     index === currentIndex 
-                      ? 'bg-purple-400 scale-125 shadow-lg shadow-purple-400/50' 
-                      : 'bg-purple-400/30 hover:bg-purple-400/60 hover:scale-110'
+                      ? 'bg-green-600 scale-125 shadow-lg shadow-green-600/50' 
+                      : 'bg-green-600/30 hover:bg-green-600/60 hover:scale-110'
                   }`}
                 />
               ))}
@@ -152,7 +152,7 @@ const Portfolio = () => {
               href="https://calendly.com/nickstudios110/nick-studios-meeting"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-12 py-4 rounded-full text-lg font-medium transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30"
+              className="inline-block bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-12 py-4 rounded-full text-lg font-medium transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg hover:shadow-green-500/30"
             >
               Get Started
             </a>

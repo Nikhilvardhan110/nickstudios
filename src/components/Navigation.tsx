@@ -70,7 +70,7 @@ const Navigation = () => {
               </a>
               <button 
                 onClick={handleGetStarted}
-                className="btn-white-bevel-glow text-background px-8 py-3 rounded-full text-base font-bold"
+                className="btn-green-bevel-glow text-white px-8 py-3 rounded-full text-base font-bold"
               >
                 Get Started
               </button>
@@ -114,7 +114,7 @@ const Navigation = () => {
             </a>
             <button 
               onClick={handleGetStarted}
-              className="btn-white-bevel-glow text-background px-8 py-4 rounded-full text-lg font-bold text-center mt-6 w-full"
+              className="btn-green-bevel-glow text-white px-8 py-4 rounded-full text-lg font-bold text-center mt-6 w-full"
             >
               Get Started
             </button>

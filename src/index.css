@@ -176,37 +176,34 @@ All colors MUST be HSL.
       0 0 15px rgba(255,255,255,0.2);
   }
 
-  .btn-gradient-bevel-glow {
+  .btn-green-bevel-glow {
     position: relative;
-    background: linear-gradient(145deg, 
-      rgba(59, 130, 246, 0.9) 0%, 
-      rgba(147, 51, 234, 0.9) 50%, 
-      rgba(59, 130, 246, 0.9) 100%);
+    background: linear-gradient(145deg, hsl(109, 19%, 43%) 0%, hsl(109, 25%, 38%) 50%, hsl(109, 30%, 33%) 100%);
     border: 1px solid rgba(255,255,255,0.2);
     box-shadow: 
-      0 8px 32px rgba(59, 130, 246, 0.3),
+      0 8px 32px rgba(88, 129, 87, 0.3),
       inset 0 1px 0 rgba(255,255,255,0.2),
       inset 0 -1px 0 rgba(0,0,0,0.1),
-      0 0 20px rgba(147, 51, 234, 0.2);
+      0 0 20px rgba(88, 129, 87, 0.2);
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
   
-  .btn-gradient-bevel-glow:hover {
+  .btn-green-bevel-glow:hover {
     box-shadow: 
-      0 12px 40px rgba(59, 130, 246, 0.4),
+      0 12px 40px rgba(88, 129, 87, 0.4),
       inset 0 1px 0 rgba(255,255,255,0.3),
       inset 0 -1px 0 rgba(0,0,0,0.15),
-      0 0 30px rgba(147, 51, 234, 0.3);
+      0 0 30px rgba(88, 129, 87, 0.3);
     transform: translateY(-1px);
   }
   
-  .btn-gradient-bevel-glow:active {
+  .btn-green-bevel-glow:active {
     transform: translateY(0);
     box-shadow: 
-      0 4px 16px rgba(59, 130, 246, 0.3),
+      0 4px 16px rgba(88, 129, 87, 0.3),
       inset 0 1px 0 rgba(255,255,255,0.1),
       inset 0 -1px 0 rgba(0,0,0,0.2),
-      0 0 15px rgba(147, 51, 234, 0.2);
+      0 0 15px rgba(88, 129, 87, 0.2);
   }
 }
 
