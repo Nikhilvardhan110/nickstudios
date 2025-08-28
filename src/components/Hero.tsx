@@ -37,15 +37,20 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
         <div className="text-center max-w-5xl mx-auto">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-8 tracking-tight">
-              Your YouTube, our focus.
-            </h1>
+            <div className="mb-8">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-2 tracking-tight">
+                Your YouTube,
+              </h1>
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground tracking-tight">
+                our focus.
+              </h1>
+            </div>
             
-            <div className="max-w-4xl mx-auto mb-12">
+            <div className="max-w-5xl mx-auto mb-12">
               <img 
                 src="/lovable-uploads/1412b4b0-cdee-4dbc-8885-584dd740adc0.png" 
                 alt="YouTube Analytics Dashboard showing growth in views, watch time, and subscribers"
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto"
               />
             </div>
           </div>
