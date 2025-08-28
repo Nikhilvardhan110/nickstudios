@@ -37,29 +37,17 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
         <div className="text-center max-w-5xl mx-auto">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">
-            <div className="inline-flex items-center gap-2 bg-secondary/50 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-border/50">
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={14} className="text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <span className="text-sm text-muted-foreground">Trusted by many creators</span>
-            </div>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-8 tracking-tight">
+              Your YouTube, our focus.
+            </h1>
             
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-[0.9] mb-2 tracking-tight">
-              Transform Your Content Into
-            </h1>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.9] mb-8 tracking-tight">
-              <span className="bg-gradient-to-r from-[#588157] via-[#6b9b5a] to-[#7db05d] bg-clip-text text-transparent animate-gradient">
-                Sales Machines
-              </span>
-            </h1>
-          </div>
-          
-          <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 delay-300">
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed font-medium">
-              Professional video editing that doesn't just look good—it converts viewers into paying customers.
-            </p>
+            <div className="max-w-4xl mx-auto mb-12">
+              <img 
+                src="/lovable-uploads/1412b4b0-cdee-4dbc-8885-584dd740adc0.png" 
+                alt="YouTube Analytics Dashboard showing growth in views, watch time, and subscribers"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
           </div>
           
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000 delay-500">
