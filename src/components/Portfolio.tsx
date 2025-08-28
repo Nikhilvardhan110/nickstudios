@@ -152,7 +152,7 @@ const Portfolio = () => {
               href="https://calendly.com/nickstudios110/nick-studios-meeting"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-12 py-4 rounded-full text-lg font-medium transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg hover:shadow-green-500/30"
+              className="inline-block bg-gradient-to-r from-[#588157] to-[#4a6d49] hover:from-[#4a6d49] hover:to-[#3c5a3b] text-white px-12 py-4 rounded-full text-lg font-medium transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg hover:shadow-[#588157]/30"
             >
               Get Started
             </a>

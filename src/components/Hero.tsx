@@ -50,7 +50,7 @@ const Hero = () => {
               Transform Your Content Into
             </h1>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.9] mb-8 tracking-tight">
-              <span className="bg-gradient-to-r from-green-600 via-green-500 to-green-400 bg-clip-text text-transparent animate-gradient">
+              <span className="bg-gradient-to-r from-[#588157] via-[#6b9b5a] to-[#7db05d] bg-clip-text text-transparent animate-gradient">
                 Sales Machines
               </span>
             </h1>
