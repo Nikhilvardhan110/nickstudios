@@ -46,9 +46,9 @@ const Hero = () => {
               </h1>
             </div>
             
-            <div className="max-w-5xl mx-auto mb-12">
+            <div className="max-w-5xl mx-auto mb-6">
               <img 
-                src="/lovable-uploads/b539ad7a-9531-4029-a904-a052428d4da3.png" 
+                src="/lovable-uploads/73bbb36a-6bfa-4eb6-866b-1bddcb049507.png" 
                 alt="YouTube Analytics Dashboard showing growth in views, watch time, and subscribers"
                 className="w-full h-auto"
               />
