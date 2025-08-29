@@ -41,7 +41,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/fe493c15-06d6-4166-8d38-680e1e201f2d.png" 
               alt="Nick Studios" 
-              className="h-12 w-auto"
+              className="h-32 w-auto"
             />
           </div>
           
