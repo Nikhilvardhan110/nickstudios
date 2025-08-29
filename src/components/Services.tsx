@@ -90,8 +90,6 @@ const Services = () => {
           ))}
         </div>
       </div>
-      {/* Gradient transition overlay to smoothly blend into portfolio section */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent via-purple-500/5 to-purple-500/10 pointer-events-none"></div>
     </section>
   );
 };

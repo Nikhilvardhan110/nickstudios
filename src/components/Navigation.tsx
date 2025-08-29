@@ -39,9 +39,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <img 
-              src="/lovable-uploads/b539ad7a-9531-4029-a904-a052428d4da3.png" 
+              src="/lovable-uploads/fe493c15-06d6-4166-8d38-680e1e201f2d.png" 
               alt="Nick Studios" 
-              className="h-32 w-auto"
+              className="h-12 w-auto"
             />
           </div>
           
