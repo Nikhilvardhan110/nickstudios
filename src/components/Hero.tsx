@@ -42,7 +42,7 @@ const Hero = () => {
                 Your YouTube,
               </h1>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground tracking-tight">
-                OUR focus.
+                OUR Focus.
               </h1>
             </div>
             
