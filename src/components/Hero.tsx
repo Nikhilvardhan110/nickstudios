@@ -42,13 +42,13 @@ const Hero = () => {
                 Your YouTube,
               </h1>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground tracking-tight">
-                our focus.
+                OUR focus.
               </h1>
             </div>
             
             <div className="max-w-5xl mx-auto mb-12">
               <img 
-                src="/lovable-uploads/1412b4b0-cdee-4dbc-8885-584dd740adc0.png" 
+                src="/lovable-uploads/b539ad7a-9531-4029-a904-a052428d4da3.png" 
                 alt="YouTube Analytics Dashboard showing growth in views, watch time, and subscribers"
                 className="w-full h-auto"
               />

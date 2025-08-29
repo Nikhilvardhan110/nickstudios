@@ -28,29 +28,29 @@ const Services = () => {
       icon: Film,
       title: "Video Editing",
       description: "Sales-focused video editing that hooks viewers in the first 3 seconds and keeps them watching until they buy.",
-      gradient: "bg-gradient-to-br from-orange-400 to-orange-600",
-      textColor: "text-black"
+      gradient: "bg-[#588157]",
+      textColor: "text-white"
     },
     {
       icon: Image,
       title: "Thumbnail Design", 
       description: "Click-worthy thumbnails designed using psychology and data to maximize your click-through rates.",
-      gradient: "bg-gradient-to-br from-green-400 to-green-600",
-      textColor: "text-black"
+      gradient: "bg-[#588157]",
+      textColor: "text-white"
     },
     {
       icon: Zap,
       title: "Fast Turnaround",
       description: "24-hour delivery guaranteed. We understand that speed = more content = more revenue for your business.",
-      gradient: "bg-gradient-to-br from-purple-500 to-purple-700",
+      gradient: "bg-[#588157]",
       textColor: "text-white"
     },
     {
       icon: Target,
       title: "Conversion Focus",
       description: "Every edit is optimized for one thing: turning viewers into customers. We track metrics, not just views.",
-      gradient: "bg-gradient-to-br from-blue-400 to-blue-600",
-      textColor: "text-black"
+      gradient: "bg-[#588157]",
+      textColor: "text-white"
     }
   ];
 
@@ -76,7 +76,7 @@ const Services = () => {
               style={{ transitionDelay: `${index * 150}ms` }}
             >
               <div className={`${service.gradient} transition-all duration-500 rounded-3xl p-8 h-full hover:scale-[1.02] shadow-xl hover:shadow-2xl`}>
-                <div className="w-16 h-16 bg-black/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <service.icon size={32} className="text-white" />
                 </div>
                 <h3 className={`text-2xl font-bold ${service.textColor} mb-4`}>
