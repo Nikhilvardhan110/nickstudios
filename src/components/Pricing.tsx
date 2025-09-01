@@ -34,46 +34,39 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: "Basic",
-      price: "$1,200",
+      name: "Pack 1",
+      price: "$979",
       period: "/month",
       description: "Perfect for creators getting started with professional editing",
       features: [
-        "4 edited videos per month",
-        "24 hour turnaround",
-        "Basic graphics & transitions",
-        "Sales-focused editing style"
+        "2 videos per month",
+        "2 thumbnails",
+        "Full management"
       ],
       popular: false
     },
     {
-      name: "Pro",
-      price: "$2,400",
+      name: "Pack 2",
+      price: "$1,275",
       period: "/month",
-      description: "Our most popular plan for creators serious about sales",
+      description: "Our most popular plan for growing creators",
       features: [
-        "8 edited videos per month",
-        "48 hour turnaround",
-        "Advanced graphics & animations",
-        "Conversion-optimized editing",
-        "Custom thumbnails",
-        "Performance analytics"
+        "4 videos per month",
+        "4 thumbnails",
+        "Full management"
       ],
       popular: true
     },
     {
-      name: "Enterprise",
-      price: "$4,000",
+      name: "Pack 3",
+      price: "$2,049",
       period: "/month",
-      description: "Premium editing for established creators and businesses",
+      description: "Complete solution for established creators",
       features: [
-        "12 edited videos per month",
-        "48 hour turnaround",
-        "Premium graphics & animations",
-        "Sales funnel optimization",
-        "Custom thumbnails",
-        "Performance analytics",
-        "Multi-format repurposing"
+        "6 videos per month",
+        "6 shorts per month",
+        "6 thumbnails per month",
+        "Full management"
       ],
       popular: false
     }
