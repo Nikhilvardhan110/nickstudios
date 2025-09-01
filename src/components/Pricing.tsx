@@ -78,7 +78,7 @@ const Pricing = () => {
         <div className="text-center mb-16">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">
             <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6">
-              Choose Your <span className="font-medium bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Growth Plan</span>
+              Choose Your <span className="font-medium text-[#588157]">Growth Plan</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Transparent pricing with no hidden fees. Every plan includes professional editing that's optimized to convert viewers into customers.
@@ -96,14 +96,14 @@ const Pricing = () => {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium">
+                  <span className="bg-[#588157] text-white px-4 py-2 rounded-full text-sm font-medium">
                     Most Popular
                   </span>
                 </div>
               )}
               
-              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-0 hover:shadow-xl hover:shadow-purple-600/20 ${
-                plan.popular ? 'border-purple-600/50 shadow-lg shadow-purple-600/10' : ''
+              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-0 hover:shadow-xl ${
+                plan.popular ? 'border-[#588157]/50 shadow-lg shadow-[#588157]/10' : ''
               }`}>
                 <div className="mb-8">
                   <h3 className="text-2xl font-semibold text-foreground mb-2">
