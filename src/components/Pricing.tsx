@@ -80,9 +80,6 @@ const Pricing = () => {
             <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6">
               Choose Your <span className="font-medium text-[#588157]">Growth Plan</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Transparent pricing with no hidden fees. Every plan includes professional editing that's optimized to convert viewers into customers.
-            </p>
           </div>
         </div>
         
