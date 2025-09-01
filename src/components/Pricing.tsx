@@ -114,9 +114,6 @@ const Pricing = () => {
                       {plan.period}
                     </span>
                   </div>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    {plan.description}
-                  </p>
                 </div>
                 
                 <ul className="space-y-4 mb-8">
