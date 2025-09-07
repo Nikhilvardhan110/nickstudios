@@ -72,7 +72,7 @@ const Process = () => {
                 <div className="w-20 h-20 bg-background rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-shadow duration-300 border border-border">
                   <step.icon size={36} className="text-foreground" />
                 </div>
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-[#588157] rounded-full flex items-center justify-center text-white text-sm font-semibold">
+                <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-white text-sm font-semibold">
                   {index + 1}
                 </div>
               </div>

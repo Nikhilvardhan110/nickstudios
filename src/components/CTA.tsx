@@ -32,7 +32,7 @@ const CTA = () => {
     <section id="contact" ref={ctaRef} className="py-24 relative overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center relative z-10">
         <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-green-600 to-green-700 rounded-full px-4 py-2 mb-8">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-green-500 rounded-full px-4 py-2 mb-8">
             <Zap size={16} className="text-white" />
             <span className="text-sm text-white font-semibold">Limited Spots Available</span>
           </div>
@@ -40,7 +40,7 @@ const CTA = () => {
           <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-8 tracking-tight leading-[0.9]">
             Ready to 10x Your
             <br />
-            <span className="bg-gradient-to-r from-green-400 via-green-500 to-orange-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-green-400 via-purple-400 to-orange-400 bg-clip-text text-transparent">
               Content ROI?
             </span>
           </h2>

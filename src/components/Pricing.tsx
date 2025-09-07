@@ -34,39 +34,46 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: "Pack 1",
-      price: "$979",
+      name: "Basic",
+      price: "$1,200",
       period: "/month",
       description: "Perfect for creators getting started with professional editing",
       features: [
-        "2 videos per month",
-        "2 thumbnails",
-        "Full management"
+        "4 edited videos per month",
+        "24 hour turnaround",
+        "Basic graphics & transitions",
+        "Sales-focused editing style"
       ],
       popular: false
     },
     {
-      name: "Pack 2",
-      price: "$1,275",
+      name: "Pro",
+      price: "$2,400",
       period: "/month",
-      description: "Our most popular plan for growing creators",
+      description: "Our most popular plan for creators serious about sales",
       features: [
-        "4 videos per month",
-        "4 thumbnails",
-        "Full management"
+        "8 edited videos per month",
+        "48 hour turnaround",
+        "Advanced graphics & animations",
+        "Conversion-optimized editing",
+        "Custom thumbnails",
+        "Performance analytics"
       ],
       popular: true
     },
     {
-      name: "Pack 3",
-      price: "$2,049",
+      name: "Enterprise",
+      price: "$4,000",
       period: "/month",
-      description: "Complete solution for established creators",
+      description: "Premium editing for established creators and businesses",
       features: [
-        "6 videos per month",
-        "6 shorts per month",
-        "6 thumbnails per month",
-        "Full management"
+        "12 edited videos per month",
+        "48 hour turnaround",
+        "Premium graphics & animations",
+        "Sales funnel optimization",
+        "Custom thumbnails",
+        "Performance analytics",
+        "Multi-format repurposing"
       ],
       popular: false
     }
@@ -78,8 +85,11 @@ const Pricing = () => {
         <div className="text-center mb-16">
           <div className="opacity-0 translate-y-8 [.animate-fade-in_&]:opacity-100 [.animate-fade-in_&]:translate-y-0 transition-all duration-1000">
             <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6">
-              Choose Your <span className="font-medium text-[#588157]">Growth Plan</span>
+              Choose Your <span className="font-medium bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Growth Plan</span>
             </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Transparent pricing with no hidden fees. Every plan includes professional editing that's optimized to convert viewers into customers.
+            </p>
           </div>
         </div>
         
@@ -93,14 +103,14 @@ const Pricing = () => {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-[#588157] text-white px-4 py-2 rounded-full text-sm font-medium">
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium">
                     Most Popular
                   </span>
                 </div>
               )}
               
-              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-0 hover:shadow-xl ${
-                plan.popular ? 'border-[#588157]/50 shadow-lg shadow-[#588157]/10' : ''
+              <div className={`bg-card border border-border rounded-2xl p-8 h-full transition-all duration-0 hover:shadow-xl hover:shadow-purple-600/20 ${
+                plan.popular ? 'border-purple-600/50 shadow-lg shadow-purple-600/10' : ''
               }`}>
                 <div className="mb-8">
                   <h3 className="text-2xl font-semibold text-foreground mb-2">
@@ -114,6 +124,9 @@ const Pricing = () => {
                       {plan.period}
                     </span>
                   </div>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {plan.description}
+                  </p>
                 </div>
                 
                 <ul className="space-y-4 mb-8">
