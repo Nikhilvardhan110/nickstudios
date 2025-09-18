@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Film, Image, Zap, Target } from 'lucide-react';
+import { Film, Image, Target, DollarSign } from 'lucide-react';
 
 const Services = () => {
   const servicesRef = useRef<HTMLDivElement>(null);
@@ -46,7 +46,7 @@ const Services = () => {
       textColor: "text-white"
     },
     {
-      icon: Target,
+      icon: DollarSign,
       title: "Conversion Focus",
       description: "Every edit is optimized for one thing: turning viewers into customers. We track metrics, not just views.",
       gradient: "bg-[#588157]",
