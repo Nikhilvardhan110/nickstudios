@@ -41,7 +41,7 @@ const Services = () => {
     {
       icon: Target,
       title: "Channel Management",
-      description: "Complete channel optimization and growth strategy. We handle everything from content planning to audience engagement.",
+      description: "Complete channel optimization and growth strategy. We handle everything from content planning to uploading and audience engagement.",
       gradient: "bg-[#588157]",
       textColor: "text-white"
     },
