@@ -39,9 +39,9 @@ const Services = () => {
       textColor: "text-white"
     },
     {
-      icon: Zap,
-      title: "Fast Turnaround",
-      description: "24-hour delivery guaranteed. We understand that speed = more content = more revenue for your business.",
+      icon: Target,
+      title: "Channel Management",
+      description: "Complete channel optimization and growth strategy. We handle everything from content planning to audience engagement.",
       gradient: "bg-[#588157]",
       textColor: "text-white"
     },
