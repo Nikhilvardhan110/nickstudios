@@ -32,6 +32,11 @@ const Portfolio = () => {
       embedUrl: "https://player.vimeo.com/video/1131279557"
     },
     {
+      id: "1129314409",
+      title: "Brand Showcase",
+      embedUrl: "https://player.vimeo.com/video/1129314409"
+    },
+    {
       id: "1111398030",
       title: "Creative Project",
       embedUrl: "https://player.vimeo.com/video/1111398030"
